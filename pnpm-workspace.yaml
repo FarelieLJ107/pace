@@ -1,0 +1,8 @@
+
+packages:
+  - "apps/*"
+  - "packages/*"
+
+# Conservative starting configuration for
+# React Native / Expo monorepo compatibility.
+nodeLinker: hoisted
